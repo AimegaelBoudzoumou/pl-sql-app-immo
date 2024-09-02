@@ -58,7 +58,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Met à jour la Date du prochain paiement
 -	Se fait par un client pour un logement et supervisé par un utilisateur
 -	A une date
--	A un montant
+-	A un montant (facultatif : car déjà présent dans le contrat)
 -	A un mode : chèque non autorisé, en espèce, mobile money, virement bancaire, transfert agence (Western union, Money gram, …)
 -	Le client reçoit un reçu par email et/ou papier imprimé
 -	Est un paiement complet ou une avance de paiement
@@ -91,4 +91,5 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 <!-- Généralités :
 -	Chaque document édité contient la date du jour de l’édition
 -	Tenir à jour une liste de client en défaut de paiement. Un code tourne chaque nuit : parcourir tous les contrats et alimenter la base de données (table) des client en défaut de paiement. Date du prochain paiement…
+- Le changement du montant de loyer, de périodicité de paiement font l'objet d'un nouveau contrat.
 -->
