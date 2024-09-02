@@ -1,3 +1,3 @@
 # Requêtes SQL et PL SQL
 
-A venir...
+<!-- requête de base : à venir... -->
