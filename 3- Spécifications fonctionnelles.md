@@ -37,7 +37,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Fait le lien entre un client et un logement, supervisé par un utilisateur
 -	Ne concerne qu’un client sur un logement en même temps
 -	Montant du loyer
--	Montant de la caution (fonction du montant du loyer) : 1, 2, 3, 4, 5, … mois de loyers. L'encaissement de la caution affecte la caisse en opération de type "entrée"
+-	Montant de la caution (fonction du montant du loyer) : 1, 2, 3, 4, 5, … mois de loyers. L'encaissement de la caution affecte la caisse en opération de type "entrée". Motif : paiement de caution
 -	Périodicité de paiement des loyers
 -	Date de paiement des futurs loyers (dpfl) : dépend de la périodicité et de la durée du contrat. Se calcule : date de début d’occupation du logement + périodicité de paiement des loyers = dpfl_1. Ensuite on calcule dpfl_2, etc.
 -	Date du prochain paiement
@@ -62,7 +62,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	A un mode : chèque non autorisé, en espèce, mobile money, virement bancaire, transfert agence (Western union, Money gram, …)
 -	Le client reçoit un reçu par email et/ou papier imprimé
 -	Est un paiement complet ou une avance de paiement
--	Met à jour la caisse en une opération de type "entrée"
+-	Met à jour la caisse en une opération de type "entrée". Motif : paiement de loyer
 
 ## Travaux	
 -	Type de travaux : construction, maintenance
@@ -72,7 +72,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Montant
 -	Nom intervenant
 -	Logement concerné
--	Met à jour la caisse
+-	Met à jour la caisse. Le décaissement affecte la caisse en opération de type "sortie". Motif : travaux sur logement
 
 ## Incident	
 -	Contrat (contient les infos du locataire et du logement)
@@ -85,7 +85,8 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Type d’opération : entrée ou sortie d’argent
 -	Date
 -	Montant
--	Contrat concerné (si entré
+-	Motif : paiement de caution/loyer, travaux sur un logement précis
+-	Contrat de bail concerné
 -	descriptif
 
 <!-- Généralités :
