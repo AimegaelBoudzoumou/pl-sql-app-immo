@@ -72,7 +72,7 @@ Les principales entités : logement, utilisateur (employé de l’agence), clien
 -	Locataire
 -	Descriptif
 
-<! -- ## Liste des impayés -->
+<! -- Liste des impayés -->
 
 ## Caisse 	
 -	Type d’opération : entrée ou sortie d’argent
