@@ -5,6 +5,7 @@ Partant d'un cahier de charges et d'une liste de spécifications fonctionnelles,
 Sommaire :
 
 ## Cahier des charges
+## Analyse et modélisation
 ## Spécifications fonctionnelles
 ## Requêtes SQL et PL/SQL pour chaque "blocs de fonctionnalités"
 
