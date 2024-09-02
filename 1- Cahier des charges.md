@@ -1,3 +1,3 @@
 # Cahier des charges
 
--- Historique : le logement est livré par une entreprise de construction bâtiment. …
+<!-- Historique : le logement est livré par une entreprise de construction bâtiment. … -->
