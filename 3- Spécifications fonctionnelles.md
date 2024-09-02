@@ -37,7 +37,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Fait le lien entre un client et un logement, supervisé par un utilisateur
 -	Ne concerne qu’un client sur un logement en même temps
 -	Montant du loyer
--	Montant de la caution (fonction du montant du loyer) : 1, 2, 3, 4, 5, … mois de loyers
+-	Montant de la caution (fonction du montant du loyer) : 1, 2, 3, 4, 5, … mois de loyers. L'encaissement de la caution affecte la caisse en opération de type "entrée"
 -	Périodicité de paiement des loyers
 -	Date de paiement des futurs loyers (dpfl) : dépend de la périodicité et de la durée du contrat. Se calcule : date de début d’occupation du logement + périodicité de paiement des loyers = dpfl_1. Ensuite on calcule dpfl_2, etc.
 -	Date du prochain paiement
@@ -85,7 +85,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Type d’opération : entrée ou sortie d’argent
 -	Date
 -	Montant
--	Contrat concerné
+-	Contrat concerné (si entré
 -	descriptif
 
 <!-- Généralités :
