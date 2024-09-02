@@ -3,7 +3,7 @@
 Un logement est livré par une entreprise de construction bâtiment ou un particulier souhaitant délégué la gestion de son bien immobilier à l'agence immobilière.
 
 Un logement peut être enregistré dans le logiciel dès la phase de construction.
-Un logement possède un état parmi : en travaux, prêt à la location, en location, en maintenance
+Un logement possède un état parmi : en travaux, prêt à la location, en location, en maintenance.
 
 Un client se propose pour visiter un logement. La visite est supervisée par un employé de l'agence immobilière. 
 
