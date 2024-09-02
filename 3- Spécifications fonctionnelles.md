@@ -1,5 +1,9 @@
 # Spécifications fonctionnelles
 
+Voici les principaux éléments qui interagissent au sein de l'application.
+
+Pour chaque élément, le code SQL et PL/SQL se trouve dans un ficher à part.
+
 ## Visite de logement par un client
 - une client peut visiter plusieurs logements
 - la visite est organisée par au moins deux employés de l'agence et un client
