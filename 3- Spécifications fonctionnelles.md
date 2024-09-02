@@ -14,6 +14,12 @@ Les principales entités : logement, utilisateur (employé de l’agence), clien
 -	Dates clés : en fonction de l’état (pour chaque changement, on note la date) : livré par l’entreprise de BTP, …
 -	Descriptif
 
+## Visite pour un client
+- une client peut visiter plusieurs logements
+- la visite est organisée par au moins deux employés de l'agence et un client
+- une vsite se tient à une adresse, une date et une heure précise
+- une visite a un identifiant unique
+
 ## Utilisateur	
 -	Doit pouvoir se connecter pour utiliser l’application
 -	A un rôle dans une hiérarchie donnée
