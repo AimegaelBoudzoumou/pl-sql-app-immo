@@ -52,7 +52,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Le mois (ou autre périodicité) de loyer se paie à l’avance
 -	Etat du paiement : normal ou anormal. Compare la date du jour avec celle du prochain paiement. Si la date du prochain paiement est inférieure à la date du jour, alors « anomal ». Calcule alors le nombre de jours de retard : date du jour – date de prochain paiement
 
-## Paiement	
+## Paiement du loyer
 -	Concerne un contrat (client + logement)
 -	Concerne une période (date début, date fin) : période concerné par le paiement
 -	Met à jour la Date du prochain paiement
@@ -62,7 +62,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	A un mode : chèque non autorisé, en espèce, mobile money, virement bancaire, transfert agence (Western union, Money gram, …)
 -	Le client reçoit un reçu par email et/ou papier imprimé
 -	Est un paiement complet ou une avance de paiement
--	Met à jour la caisse
+-	Met à jour la caisse en une opération de type "entrée"
 
 ## Travaux	
 -	Type de travaux : construction, maintenance
