@@ -11,7 +11,7 @@ Si le client est satisfait, il décide de s'engager pour une location sur une du
 
 Le client s'engage à payer son loyer sur une périodicité définie au préalable.
 
-Des travaux peuvent entrepris sur un logement : soit pendant l'occupation du logement, soit entre deux locations.
+Des travaux peuvent être entrepris sur un logement : soit pendant l'occupation du logement, soit entre deux locations.
 
 Un incident peut être déclaré sur un logement : incivilités, disputes, dégâts matériels, etc.
 
