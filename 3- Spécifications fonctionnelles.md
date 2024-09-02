@@ -4,7 +4,7 @@ Les fonctionnalités ci-dessous sont regroupés par "bloc de fonctionnalité". C
 
 Les principales entités : logement, utilisateur (employé de l’agence), client, contrat de bail, paiement de loyer, travaux
 
-## Visite pour un client
+## Visite de logement par un client
 - une client peut visiter plusieurs logements
 - la visite est organisée par au moins deux employés de l'agence et un client
 - une vsite se tient à une adresse, une date et une heure précise
