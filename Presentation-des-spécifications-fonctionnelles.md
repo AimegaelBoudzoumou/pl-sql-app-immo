@@ -1,1 +1,1 @@
-# Présentation des spécifications fonctionnelles
+# Spécifications fonctionnelles
