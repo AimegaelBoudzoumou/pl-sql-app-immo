@@ -2,7 +2,7 @@
 
 Voici les principaux éléments qui interagissent au sein de l'application.
 
-Pour chaque élément, le code SQL et PL/SQL se trouve dans un ficher à part.
+Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 
 ## Visite de logement par un client
 - une client peut visiter plusieurs logements
