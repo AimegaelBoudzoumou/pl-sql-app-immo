@@ -7,6 +7,6 @@ Sommaire :
 ## Cahier des charges
 ## Analyse et modélisation
 ## Spécifications fonctionnelles
-## Requêtes SQL et PL/SQL pour chaque "blocs de fonctionnalités"
+## Requêtes SQL et PL/SQL
 
 Note : les requêtes ont été expérimentées dans un contexte SQL Live.
