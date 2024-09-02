@@ -4,6 +4,6 @@ Se basant sur un cahier de charges et sur une liste de spécifications fonctionn
 
 Ce projet est constitué :
 
-## Présentation du cahier des charges
-## Présentation des spécifications fonctionnelles
-## Présentation des requêtes SQL et PL/SQL pour chaque "blocs de fonctionnalités"
+## Cahier des charges
+## Spécifications fonctionnelles
+## Requêtes SQL et PL/SQL pour chaque "blocs de fonctionnalités"
