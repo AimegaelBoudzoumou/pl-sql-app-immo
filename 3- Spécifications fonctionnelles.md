@@ -31,6 +31,7 @@ Les principales entités : logement, utilisateur (employé de l’agence), clien
 -	A une ou plusieurs personnes référentes (à contacter au besoin) : ce n’est pas un garant
 -	Garant (facultatif)
 -	Fournit une copie de pièce identité
+-	Un client possède son espace personnel en ligne
 
 ## Contrat de bail	
 -	Fait le lien entre un client et un logement, supervisé par un utilisateur
