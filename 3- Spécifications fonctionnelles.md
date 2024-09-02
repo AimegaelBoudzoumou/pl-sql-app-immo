@@ -4,6 +4,12 @@ Les fonctionnalités ci-dessous sont regroupés par "bloc de fonctionnalité". C
 
 Les principales entités : logement, utilisateur (employé de l’agence), client, contrat de bail, paiement de loyer, travaux
 
+## Visite pour un client
+- une client peut visiter plusieurs logements
+- la visite est organisée par au moins deux employés de l'agence et un client
+- une vsite se tient à une adresse, une date et une heure précise
+- une visite a un identifiant unique
+
 ## Logement	
 -	A un état : en travaux, prêt à la location, en location, en maintenance
 -	Pour être loué, le logement doit être dans l’état « prêt à la location »
@@ -13,12 +19,6 @@ Les principales entités : logement, utilisateur (employé de l’agence), clien
 -	A un identifiant unique
 -	Dates clés : en fonction de l’état (pour chaque changement, on note la date) : livré par l’entreprise de BTP, …
 -	Descriptif
-
-## Visite pour un client
-- une client peut visiter plusieurs logements
-- la visite est organisée par au moins deux employés de l'agence et un client
-- une vsite se tient à une adresse, une date et une heure précise
-- une visite a un identifiant unique
 
 ## Utilisateur	
 -	Doit pouvoir se connecter pour utiliser l’application
