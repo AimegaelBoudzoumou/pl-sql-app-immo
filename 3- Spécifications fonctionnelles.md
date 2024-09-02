@@ -1,8 +1,6 @@
 # Spécifications fonctionnelles
 
-Les fonctionnalités ci-dessous sont regroupés par "bloc de fonctionnalité". Ce dernier se trouve dans un fichier à part.
-
-Les principales entités : logement, utilisateur (employé de l’agence), client, contrat de bail, paiement de loyer, travaux
+Les principales entités : logement, utilisateur (employé de l’agence), client, contrat de bail, paiement de loyer, travaux.
 
 ## Visite de logement par un client
 - une client peut visiter plusieurs logements
