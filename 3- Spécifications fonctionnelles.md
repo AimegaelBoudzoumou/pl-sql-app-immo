@@ -1,7 +1,5 @@
 # Spécifications fonctionnelles
 
-Les principales entités : logement, utilisateur (employé de l’agence), client, contrat de bail, paiement de loyer, travaux.
-
 ## Visite de logement par un client
 - une client peut visiter plusieurs logements
 - la visite est organisée par au moins deux employés de l'agence et un client
