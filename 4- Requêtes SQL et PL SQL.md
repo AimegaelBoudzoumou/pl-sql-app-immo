@@ -1,3 +1,3 @@
 # Requêtes SQL et PL SQL
 
-## Requête de base :
+## Requête de base
