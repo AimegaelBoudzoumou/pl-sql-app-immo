@@ -1,6 +1,6 @@
 # Cahier des charges
 
-Note : ce cahier de charges se veut être sommaire. Merci de consulter les spécifications fonctionnelles pour plonger au coeur du fonctionner de l'applicatif.
+Note : ce cahier de charges se veut être sommaire. Merci de consulter les __spécifications fonctionnelles__ pour plonger au coeur du fonctionnement de l'applicatif.
 
 Un logement est livré par une entreprise de construction bâtiment ou un particulier souhaitant délégué la gestion de son bien immobilier à l'agence immobilière.
 
