@@ -68,30 +68,29 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Met à jour la caisse en une opération de type "entrée". Motif : paiement de loyer
 
 ## Travaux	
--	Type de travaux : construction, maintenance, maintenance après état des lieux, etc.
--	Date début et de fin (estimation)
--	Date de fin effective
--	Types : plomberie, menuiserie, etc.
--	Montant
--	Nom intervenant
--	Logement concerné
--	Contrat concernée
--	Met à jour la caisse. Le décaissement affecte la caisse en opération de type "sortie". Motif : travaux sur logement
+-	A un type de travaux : construction, maintenance, maintenance après état des lieux, etc.
+-	A une date début et de fin (estimation)
+-	A une date de fin effective
+-	A une nature de travaux : plomberie, menuiserie, etc.
+-	A un montant
+-	Possède le nom d'intervenant
+-	Concerne un logement
+-	Concerne un con
+-	Met à jour la caisse. Le décaissement affecte la caisse en opération de type "sortie". Motif : travaux sur logement ...
 
 ## Incident	
--	Contrat (contient les infos du locataire et du logement)
--	Locataire
--	Descriptif
+-	Concerne un ou plusieurs contrats (contient les infos du locataire et du logement)
+-	Contient un descriptif de la situation
 
 <!-- Liste des impayés -->
 
-## Caisse 	
--	Type d’opération : entrée ou sortie d’argent
--	Date
--	Montant
--	Motif : paiement de caution/loyer, travaux sur un logement précis
--	Contrat de bail concerné
--	descriptif
+## Caisse / opération de caisse
+-	A un type : entrée (paiement de caution, de loyer) ou sortie d’argent (travaux, salaire employés, etc.)
+-	A une date
+-	A un montant
+-	A un motif : paiement de caution/loyer, travaux sur un logement précis, etc.
+-	Concerne un contrat de bail précis (information facultatif : par exemple dans le cas d'un paiement de salaire)
+-	A un descriptif (facultatif)
 
 <!-- Généralités :
 -	Chaque document édité contient la date du jour de l’édition
