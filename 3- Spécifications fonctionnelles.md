@@ -6,7 +6,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 
 ## Logement	
 -	A un état : en travaux, péparation à la location, prêt à la location, en location, en maintenance après état des lieux
--	Pour être loué, le logement doit être dans l’état « prêt à la location »
+-	Pour être visité puis loué, le logement doit être dans l’état « prêt à la location »
 -	Peut faire l’objet d’un ou plusieurs travaux en même
 -	Peut être loué à seul client en même temps
 -	A des caractéristiques : adresse (numéro de rue/avenue, quartier, ville, pays), plan (salon, nombre de chambre, douche/toilette, cuisine, véranda, autre), visuels
