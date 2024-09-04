@@ -2,7 +2,7 @@
 
 Voici les principaux éléments (entités) qui interagissent au sein de l'application.
 
-Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
+Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 
 ## Logement	
 -	A un état : en travaux, péparation à la location, prêt à la location, en location, en maintenance après état des lieux
