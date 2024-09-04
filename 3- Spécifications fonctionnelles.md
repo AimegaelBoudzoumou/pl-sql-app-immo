@@ -11,7 +11,7 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 - une visite a un identifiant unique
 
 ## Logement	
--	A un état : en travaux, prêt à la location, en location, en maintenance
+-	A un état : en travaux, péparation à la location, prêt à la location, en location, en maintenance après état des lieux
 -	Pour être loué, le logement doit être dans l’état « prêt à la location »
 -	Peut faire l’objet d’un ou plusieurs travaux en même
 -	Peut être loué à seul client en même temps
