@@ -51,6 +51,9 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	La date de paiement de loyer correspond à la date de début d’occupation du loyer
 -	Le mois (ou autre périodicité) de loyer se paie à l’avance
 -	Etat du paiement : normal ou anormal. Compare la date du jour avec celle du prochain paiement. Si la date du prochain paiement est inférieure à la date du jour, alors « anomal ». Calcule alors le nombre de jours de retard : date du jour – date de prochain paiement
+-	Fin du contrat de bail :
+  Soit : "contrat résilié pour continuer" : par exemple suite à une modification de prix, une modificatin de la date de paiement, etc.
+ 	Soit : "contrat résilié définitement" : un état des lieux est organisé. Les travaux à refaire sont enregistrés dans la table __Travaux__. Le logement passe à l'état "en maintenance".
 
 ## Paiement du loyer
 -	Concerne un contrat (client + logement)
@@ -65,13 +68,14 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Met à jour la caisse en une opération de type "entrée". Motif : paiement de loyer
 
 ## Travaux	
--	Type de travaux : construction, maintenance
+-	Type de travaux : construction, maintenance, maintenance après état des lieux, etc.
 -	Date début et de fin (estimation)
 -	Date de fin effective
 -	Types : plomberie, menuiserie, etc.
 -	Montant
 -	Nom intervenant
 -	Logement concerné
+-	Contrat concernée
 -	Met à jour la caisse. Le décaissement affecte la caisse en opération de type "sortie". Motif : travaux sur logement
 
 ## Incident	
