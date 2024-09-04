@@ -4,28 +4,32 @@ Voici les principaux éléments (entités) qui interagissent au sein de l'applic
 
 Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 
-## Logement	
+## Logement
 -	A un état : en travaux, péparation à la location, prêt à la location, en location, en maintenance après état des lieux
 -	Pour être visité puis loué, le logement doit être dans l’état « prêt à la location »
 -	Peut faire l’objet d’un ou plusieurs travaux en même
 -	Peut être loué à seul client en même temps
 -	A des caractéristiques : adresse (numéro de rue/avenue, quartier, ville, pays), plan (salon, nombre de chambre, douche/toilette, cuisine, véranda, autre), visuels
--	A un identifiant unique
 -	Date d'entrée dans le parc de logement : cette information ainsi que le logement sont enregistrées dans la table __Dates clés sur logement__ (penser par exemple au Trigger)
 -	A un descriptif
+- A un identifiant unique : ensemble de caractères alphanumériques. Données à exploiter : quartier, ville, date d'entrée dans le parc immobilier. etc.
 
 ## Dates clés sur logement
 -	Un logement possède des dates clés. La première date est celle de l'enregistrement du logement dans le parc immobilier. Ensuite, les grands faits marquants (ex. signature d'un contrat de bail, etc.)
+- L'identifiant est constitué de la concaténation entre "l'identifiant du logement" et la "date en question"
 
 ## Visite de logement par un client
 - une client peut visiter plusieurs logements
 - la visite est organisée par au moins deux employés de l'agence et un client
 - une vsite se tient à une adresse, une date et une heure précise
 - une visite a un identifiant unique
+- L'identifiant est constitué de la concaténation entre "l'identifiant du logement" et la "date en question"
 
 ## Utilisateur	
 -	Doit pouvoir se connecter pour utiliser l’application
 -	A un rôle dans une hiérarchie donnée
+-	A un nom, prénom, téléphone1, téléphone2 (facultatif), emai, adresse, personne référentes, date de naissance, lieu de naissance
+-	A un identifiant unique
 
 ## Client	
 -	Signe un contrat de bail pour un logement précis
@@ -35,6 +39,7 @@ Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	A un garant (facultatif)
 -	Fournit une copie de pièce identité
 -	Possède son espace personnel en ligne
+- A un identifiant unique
 
 ## Contrat de bail	
 -	Fait le lien entre un client et un logement, supervisé par un utilisateur
@@ -57,6 +62,7 @@ Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Fin du contrat de bail :
   Soit : "contrat résilié pour continuer" : par exemple suite à une modification de prix, une modificatin de la date de paiement, etc.
  	Soit : "contrat résilié définitement" : un état des lieux est organisé. Les travaux à refaire sont enregistrés dans la table __Travaux__. Le logement passe à l'état "en maintenance".
+- A un identifiant unique : identifiant du logement + date signature contrat
 
 ## Paiement du loyer
 -	Concerne un contrat (client + logement)
@@ -69,6 +75,7 @@ Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Le client reçoit un reçu par email et/ou papier imprimé
 -	Est un paiement complet ou une avance de paiement
 -	Met à jour la caisse en une opération de type "entrée". Motif : paiement de loyer
+-	A un identifiant unique : concaténation de "contrat concerné" et "date de paiement"
 
 ## Travaux	
 -	A un type de travaux : construction, maintenance, maintenance après état des lieux, etc.
@@ -80,10 +87,12 @@ Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Concerne un logement
 -	Concerne un con
 -	Met à jour la caisse. Le décaissement affecte la caisse en opération de type "sortie". Motif : travaux sur logement ...
+-	A un identifiant unique : contrat + date + type + code aléatoire
 
 ## Incident	
 -	Concerne un ou plusieurs contrats (contient les infos du locataire et du logement)
 -	Contient un descriptif de la situation
+-	A un identifiant unique : contrat + date + type + code aléatoire
 
 <!-- Liste des impayés -->
 
@@ -94,6 +103,7 @@ Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	A un motif : paiement de caution/loyer, travaux sur un logement précis, etc.
 -	Concerne un contrat de bail précis (information facultatif : par exemple dans le cas d'un paiement de salaire)
 -	A un descriptif (facultatif)
+-	A un identifiant unique : type + date + caractères aléatoires alphanumériques
 
 <!-- Généralités :
 -	Chaque document édité contient la date du jour de l’édition
