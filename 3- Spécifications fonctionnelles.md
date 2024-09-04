@@ -1,6 +1,6 @@
 # Spécifications fonctionnelles
 
-Voici les principaux éléments qui interagissent au sein de l'application.
+Voici les principaux éléments (entités) qui interagissent au sein de l'application.
 
 Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 
