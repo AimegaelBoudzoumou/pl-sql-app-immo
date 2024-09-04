@@ -32,9 +32,9 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Peut signer plusieurs contrats en même temps (logements différents)
 -	A un nom, prénom, email (facultative), téléphone1, téléphone2, adresse, date de naissance, lieu de naissance, civilité (Homme ou Femme), 
 -	A une ou plusieurs personnes référentes (à contacter au besoin) : ce n’est pas un garant
--	Garant (facultatif)
+-	A un garant (facultatif)
 -	Fournit une copie de pièce identité
--	Un client possède son espace personnel en ligne
+-	Possède son espace personnel en ligne
 
 ## Contrat de bail	
 -	Fait le lien entre un client et un logement, supervisé par un utilisateur
