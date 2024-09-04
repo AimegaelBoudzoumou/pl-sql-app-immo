@@ -11,8 +11,11 @@ Pour chaque élément, le code SQL et PL/SQL se trouve dans un fichier à part.
 -	Peut être loué à seul client en même temps
 -	A des caractéristiques : adresse (numéro de rue/avenue, quartier, ville, pays), plan (salon, nombre de chambre, douche/toilette, cuisine, véranda, autre), visuels
 -	A un identifiant unique
--	Dates clés : en fonction de l’état (pour chaque changement, on note la date) : livré par l’entreprise de BTP, …
--	Descriptif
+-	Date d'entrée dans le parc de logement : cette information ainsi que le logement sont enregistrées dans la table __Dates clés sur logement__ (penser par exemple au Trigger)
+-	A un descriptif
+
+## Dates clés sur logement
+-	Un logement possède des dates clés. La première date est celle de l'enregistrement du logement dans le parc immobilier. Ensuite, les grands faits marquants (ex. signature d'un contrat de bail, etc.)
 
 ## Visite de logement par un client
 - une client peut visiter plusieurs logements
