@@ -1,5 +1,7 @@
 # Cahier des charges
 
+Note : ce cahier de charges de veut être sommaire. Merci de consulter les spécifications fonctionnelles pour plonger au coeur du fonctionner de l'applicatif.
+
 Un logement est livré par une entreprise de construction bâtiment ou un particulier souhaitant délégué la gestion de son bien immobilier à l'agence immobilière.
 
 Un logement peut être enregistré dans le logiciel dès la phase de construction.
