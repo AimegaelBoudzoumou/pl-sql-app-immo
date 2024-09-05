@@ -9,4 +9,4 @@ Sommaire :
 ## Spécifications fonctionnelles
 ## Requêtes SQL et PL/SQL
 
-Note : les requêtes ont été expérimentées dans un contexte SQL Live.
+Note : les requêtes ont été expérimentées dans un contexte [Oracle Live SQL](https://livesql.oracle.com/apex/f?p=590:1000).
