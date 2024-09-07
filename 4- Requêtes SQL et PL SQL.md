@@ -6,7 +6,7 @@
 
 <!-- Insertion des données -->
 
-## attention : ce code PL/SQL concerne un autre projet :
+## Attention : ce code PL/SQL concerne un autre projet :
 
 ```sql
 -- Ajouter la mention « NON RETOURNABLE » à une liste de désignation :
