@@ -9,7 +9,7 @@
 ## attention : ce code PL/SQL concerne un autre projet :
 
 ```sql
-Ajouter la mention « NON RETOURNABLE » à une liste de désignation :
+-- Ajouter la mention « NON RETOURNABLE » à une liste de désignation :
 drop table g_produits;
 
 create table g_produits (
