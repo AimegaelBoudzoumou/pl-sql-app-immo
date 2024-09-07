@@ -32,8 +32,8 @@ IS
 BEGIN
     FOR one_product IN list_of_product
     LOOP
-    	new_designation := (one_product.designation || ' - NON RETOURNABLE');
-		update g_produits set designation = new_designation where ref_interne = one_product.ref_interne;
+	new_designation := (one_product.designation || ' - NON RETOURNABLE');
+        update g_produits set designation = new_designation where ref_interne = one_product.ref_interne;
     END LOOP;
 END;
 /
