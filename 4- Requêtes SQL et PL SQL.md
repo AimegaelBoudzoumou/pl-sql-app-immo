@@ -43,7 +43,7 @@ execute adding_text_at_the_end;
 select * from g_produits;
 ```
 
-Même chose que ci-dessus, mais avec FETCH :
+## Même chose que ci-dessus, mais avec FETCH :
 
 ```sql
 -- Ajouter la mention « NON RETOURNABLE » à une liste de désignation :
