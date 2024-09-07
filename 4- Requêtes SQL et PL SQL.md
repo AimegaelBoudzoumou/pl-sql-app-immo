@@ -22,7 +22,7 @@ insert into g_produits values (85, 'HP Pavillon');
 insert into g_produits values (100, 'Macintosh M3');
 insert into g_produits  values (4, 'Dicota sac de voyage');
 
-/******************************************************* Procedure *************************************************************/
+/******************************************************* Procedure *********************************************************/
 
 CREATE OR REPLACE PROCEDURE adding_text_at_the_end
 IS
