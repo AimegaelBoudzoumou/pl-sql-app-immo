@@ -20,7 +20,7 @@ create table g_produits (
 insert into g_produits values (75, 'Lenonvo key boar');
 insert into g_produits values (85, 'HP Pavillon');
 insert into g_produits values (100, 'Macintosh M3');
-insert into g_produits  values (4, 'Dicota sac de voyage');
+insert into g_produits values (4, 'Dicota sac de voyage');
 
 /******************************************************* Procedure *********************************************************/
 
