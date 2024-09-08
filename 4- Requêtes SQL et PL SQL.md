@@ -6,7 +6,7 @@
 
 <!-- Insertion des données -->
 
-## Attention : ce code PL/SQL concerne un autre projet (merci de votre compréhension):
+## Attention : ce code PL/SQL concerne un autre projet (merci de votre compréhension)
 
 ### Bésoin métier/fonctionnel :
 Le client souhaite faire afficher la mention __NON RETOURNABLE__ à la fin de la désignation de certains produits :
