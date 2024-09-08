@@ -92,7 +92,7 @@ select * from g_produits;
 ```
 
 ### Bésoin métier/fonctionnel :
-Le client souhaite faire intégrer du contenu marketing (code HTML/CSS) à la création d'un produit de marque __Lenovo__ et de marque __grade A__
+Le client souhaite faire intégrer du contenu marketing (code HTML/CSS) à la création de chaque produit de marque __Lenovo__ et de marque __grade A__
 
 ```sql
 drop table g_produits;
