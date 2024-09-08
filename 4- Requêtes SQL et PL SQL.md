@@ -6,10 +6,12 @@
 
 <!-- Insertion des données -->
 
-## Attention : ce code PL/SQL concerne un autre projet :
+## Attention : ce code PL/SQL concerne un autre projet (merci de votre compréhension):
+
+### Bésoin métier/fonctionnel :
+Le client souhaite faire afficher la mention __NON RETOURNABLE__ à la fin de la désignation de certains produits :
 
 ```sql
--- Ajouter la mention « NON RETOURNABLE » à une liste de désignation :
 drop table g_produits;
 
 create table g_produits (
@@ -43,7 +45,7 @@ execute adding_text_at_the_end;
 select * from g_produits;
 ```
 
-## Même chose que ci-dessus, mais avec FETCH :
+### Même chose que ci-dessus, mais avec FETCH :
 
 ```sql
 -- Ajouter la mention « NON RETOURNABLE » à une liste de désignation :
@@ -86,5 +88,47 @@ END;
 
 select * from g_produits;
 execute adding_text_at_the_end;
+select * from g_produits;
+```
+
+### Bésoin métier/fonctionnel :
+Le client souhaite faire intégrer du contenu marketing (code HTML/CSS) à la création d'un produit de marque __Lenovo__ et de marque __grade A__
+
+```sql
+drop table g_produits;
+
+create table g_produits (
+    ref_interne       integer,
+    marque            varchar2(100),
+    categorie         varchar2(100),
+    contenu_marketing varchar2(1000)
+);
+
+select * from g_produits;
+
+-- trigger for g_produits_Lenovo_grade_A_trg
+
+create or replace trigger g_produits_lenovo_grade_A_trg
+	before insert 
+    on    g_produits
+    for each row
+declare
+    new_marque    g_produits.marque%type    := :NEW.marque;
+	new_categorie g_produits.categorie%type := :NEW.categorie;
+begin
+    if new_marque = 'Lenovo' and new_categorie = 'grade A' then
+    	:NEW.contenu_marketing := 'blabla blabla';
+	end if;
+end;
+/
+-- end trigger for g_produits_Lenovo_grade_A_trg
+    
+insert into g_produits values (13, 'Lenovo', 'grade A', null);
+insert into g_produits values (12, 'Lenovo', 'grade B', null);
+insert into g_produits values (11, 'Samsung', 'grade A', null);
+insert into g_produits values (14, 'Lenovo', 'grade A', null);
+insert into g_produits values (20, 'Toshiba', 'grade C', null);
+insert into g_produits values (21, 'Lenovo', 'grade A', null);
+    
 select * from g_produits;
 ```
