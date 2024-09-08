@@ -8,8 +8,8 @@
 
 ## Attention : ce code PL/SQL concerne un autre projet (merci de votre compréhension)
 
-### Bésoin métier/fonctionnel :
-Le client souhaite faire afficher la mention __NON RETOURNABLE__ à la fin de la désignation de certains produits :
+### 1. Besoin fonctionnel 1
+##### Le client souhaite faire afficher la mention _NON RETOURNABLE_ à la fin de la désignation de certains produits :
 
 ```sql
 drop table g_produits;
@@ -91,8 +91,8 @@ execute adding_text_at_the_end;
 select * from g_produits;
 ```
 
-### Bésoin métier/fonctionnel :
-Le client souhaite faire intégrer du contenu marketing (code HTML/CSS) à la création de chaque produit de marque __Lenovo__ et de marque __grade A__
+### 2. Besoin fonctionnel 2
+##### Le client souhaite faire intégrer du contenu marketing (code HTML/CSS) à la création de chaque produit de marque _Lenovo_ et de marque _grade A_
 
 ```sql
 drop table g_produits;
@@ -117,7 +117,7 @@ declare
 	new_categorie g_produits.categorie%type := :NEW.categorie;
 begin
     if new_marque = 'Lenovo' and new_categorie = 'grade A' then
-    	:NEW.contenu_marketing := 'blabla blabla';
+    	:NEW.contenu_marketing := 'contenu marketing pour Lenovo grade A';
 	end if;
 end;
 /
