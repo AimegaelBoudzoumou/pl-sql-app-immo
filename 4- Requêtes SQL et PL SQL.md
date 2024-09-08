@@ -8,7 +8,7 @@
 
 ## Attention : ce code PL/SQL concerne un autre projet (merci de votre compréhension)
 
-### 1. Besoin fonctionnel 1
+### 1. Besoin fonctionnel pour ajouter la mention "NON RETOURNABLE"
 ##### Le client souhaite faire afficher la mention _NON RETOURNABLE_ à la fin de la désignation de certains produits :
 
 ```sql
@@ -91,7 +91,7 @@ execute adding_text_at_the_end;
 select * from g_produits;
 ```
 
-### 2. Besoin fonctionnel 2
+### 2. Besoin fonctionnel pour intégrer du contenu marketing
 ##### Le client souhaite faire intégrer du contenu marketing (code HTML/CSS) à la création de chaque produit de marque _Lenovo_ et de marque _grade A_
 
 ```sql
