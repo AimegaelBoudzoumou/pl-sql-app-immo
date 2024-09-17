@@ -12,7 +12,7 @@ Pour en savoir plus sur les fonctionnalités de l'applicatif, merci de consulter
 
 - Un client se propose pour visiter un logement. La visite est supervisée par un employé de l'agence immobilière. 
 
-- Si le client est satisfait, il décide de s'engager pour une location sur une durée déterminée. Cet engagement se manifeste par un contrat de bail.
+- Si le client est satisfait, il décide de s'engager pour une location sur une durée déterminée. Cet engagement se matérialise par l'établissement d'un contrat de bail.
 
 - Le client s'engage à payer son loyer sur une périodicité définie au préalable.
 
