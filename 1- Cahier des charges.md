@@ -1,6 +1,8 @@
 # Cahier des charges
 
-Note : ce cahier de charges se veut être sommaire. Son but est de donner un bref aperçu du contenu du projet Merci de consulter les [spécifications fonctionnelles](https://github.com/AimegaelBoudzoumou/pl-sql-app-immo/blob/main/3-%20Sp%C3%A9cifications%20fonctionnelles.md) pour en savoir plus sur les fonctionnalités de l'applicatif.
+Note : ce cahier de charges se veut être sommaire. Son but est de donner un bref aperçu du contenu du projet.
+
+Pour en savoir plus sur les fonctionnalités de l'applicatif, merci de consulter les [spécifications fonctionnelles](https://github.com/AimegaelBoudzoumou/pl-sql-app-immo/blob/main/3-%20Sp%C3%A9cifications%20fonctionnelles.md).
 
 Un logement est livré par une entreprise de construction bâtiment ou un particulier souhaitant délégué la gestion de son bien immobilier à l'agence immobilière.
 
