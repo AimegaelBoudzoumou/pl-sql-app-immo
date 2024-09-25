@@ -22,3 +22,5 @@ Pour en savoir plus sur les fonctionnalités de l'applicatif, merci de consulter
 - Un incident peut être déclaré sur un logement : incivilités, disputes, dégâts matériels, etc.
 
 - Une caisse permet de lister les entrées (paiement de caution, paiement de loyer) et les sorties (dépenses liées aux travaux, remboursement de cautio) financières réalisées par l'agence immobilière.
+
+- __Important__: L'application devra enregistrer l'utilisateur ayant effectué une action données.
