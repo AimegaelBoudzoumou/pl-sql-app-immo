@@ -14,7 +14,7 @@ Pour chaque entités, le code SQL et PL/SQL se trouve dans un fichier à part, d
 -	A un descriptif
 - A un identifiant unique : ensemble de caractères alphanumériques. Données à exploiter : quartier, ville, date d'entrée dans le parc immobilier. etc.
 
-## Dates clés sur logement
+## Evénements (Dates clés) sur logement
 -	Un logement possède des dates clés. La première date est celle de l'enregistrement du logement dans le parc immobilier. Ensuite, les grands faits marquants (ex. signature d'un contrat de bail, etc.)
 - L'identifiant est constitué de la concaténation entre "l'identifiant du logement" et la "date en question"
 
