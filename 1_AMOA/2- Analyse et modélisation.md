@@ -12,5 +12,8 @@
 5. Le Dictionnaire de données: contient toutes informations (entitées, attributs, etc)
 
 <!--
+Vidéo :
+Créer un MCD (Modèle Conceptuel de Données) / Modèle EA - Méthode & Exemple - Bases de données
+
 https://www.youtube.com/watch?v=Cq8Hokn2SAQ&list=PLBSR8yBR2-4XOs7HeNY8bhGU3mioYUHmt&index=3
 -->
