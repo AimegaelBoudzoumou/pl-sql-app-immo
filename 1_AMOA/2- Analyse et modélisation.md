@@ -3,7 +3,7 @@
 ## Rappel
 
 ### MCD (modèle conceptuel de données ou modèle entité-association):
-1. Les entités
+1. Les entités :
 - sont séparées
 - possèdent des attribuent : avec un type et qui sont élémentaires
 2. Les associations : relient les entités
